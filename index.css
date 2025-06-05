@@ -269,6 +269,8 @@ nav {
     margin: 0 auto 30px auto;
     font-size: 1.1em;
     color: var(--secondary-color);
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 /* Skills Section */
