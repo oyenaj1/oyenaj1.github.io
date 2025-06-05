@@ -188,7 +188,7 @@ nav {
     justify-content: center;
     text-align: center;
     padding: 80px 20px;
-   min-height: 70vh; /* Adjust based on header height */
+    min-height: 70vh; /* Adjust based on header height */
     gap: 40px;
 }
 
@@ -224,7 +224,9 @@ nav {
 }
 
 .hero-image img {
-    max-width: 400px;
+    width: 100%; /* Ensure it scales down to fit its container */
+    max-width: 400px; /* But don't let it grow larger than 400px */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 50%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: transform var(--transition-speed) ease;
