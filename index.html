@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyena - Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="INDEX.JS"></script>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">
+                <a href="#home">Oyena</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Oyena</span></h1>
+                <p class="tagline">A Passionate financial and data analyst</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>                    
+                </div>
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/High_DE04519-031.jpg" alt="Your Profile Picture">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm Oyena, a graduate with a strong passion for investment analysis. I'm currently learning data analytics. I'm hoping to get into finance.
+                </p>
+                <p>
+                    I'm dedicated to delivering high-quality work and constantly improving my skills. When I'm not coding, you can find me [Another hobby, e.g., hiking, reading, playing guitar].
+                </p>
+                <a href="path/to/your/resume.pdf" target="_blank" class="btn secondary-btn">Download Resume</a>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node.js</h3>
+                    </div>
+                    <div class="fab skill-item">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                        <h3>Project One</h3>
+                        <p>A brief description of your project, highlighting its key features and technologies used.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="#" target="_blank" class="btn small-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                        <h3>Project Two</h3>
+                        <p>Another brief description of your project, highlighting its key features and technologies used.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="#" target="_blank" class="btn small-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                        <h3>Project Three</h3>
+                        <p>A third brief description of your project, highlighting its key features and technologies used.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="#" target="_blank" class="btn small-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have a question or want to work together? Feel free to reach out!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Oyena. All rights reserved.</p>
+            <div class="footer-social-links">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+     <button id="scrollTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
